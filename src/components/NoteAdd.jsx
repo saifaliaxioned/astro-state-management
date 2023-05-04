@@ -25,7 +25,7 @@ export default function NoteAdder() {
           <input className='border p-2' type="text" name="note" id="note" placeholder='please add note'  value={note} onChange={handleInputChange} />
         </div>
         <div className="input-control">
-          <input className='border bg-black text-white px-5 py-2' type='submit' value="add"/>
+          <input className='border bg-black cursor-pointer md:hover:bg-gray-600 text-white px-5 py-2' type='submit' value="Add"/>
         </div>
       </form>
       <ul className='w-1/2 flex flex-col mx-5'>
