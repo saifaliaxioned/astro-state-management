@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NoteAdd from "../components/NoteAdd";
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<NoteAdd client:load />
+	</main>
+</Layout>
